@@ -20,9 +20,9 @@ public class ArrayListExam {
 //        pic1.getWidth() : 가로길이
 //        pic1.translate(x ,y); 이동
 //        pic1.draw();
-        for (int i = 0; i < list.size(); i++) {
-            Picture picture = list.get(i);
-            picture.draw();
+//        for (int i = 0; i < list.size(); i++) {
+//            Picture picture = list.get(i);
+//            picture.draw();
 
         }
 
