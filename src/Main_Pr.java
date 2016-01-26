@@ -20,7 +20,7 @@ public class Main_Pr {
 
                     char a = src.charAt(i);
 
-                    a.
+
 
 
 

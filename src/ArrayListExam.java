@@ -21,7 +21,7 @@ public class ArrayListExam {
 //        pic1.translate(x ,y); 이동
 //        pic1.draw();
 
-        1 번답
+//        1 번답
 
 
         int j = 0;
@@ -43,106 +43,107 @@ public class ArrayListExam {
     }
 }
 
+////2번답
+//
+//    int j=0;
+//
+//for(int i=0;i<list.size();i++){
+//
+//        Picture picture=list.get(i);
+//        j+=picture.getWidth();
+//
+//
+//        }
+//        System.out.println(j);
+//
+//        }
+//        }
+//
+////        3번답
+//
+//
+//        int j=0;
+//        int k=0;
+//        for(int i=0;i<list.size();i++){
+//
+//        Picture picture=list.get(i);
+//        k=picture.getWidth();
+//
+//        picture.translate(j,0);
+//
+//
+//        if(picture.getHeight()>k){
+//        picture.draw();
+//        j+=k;
+//
+//        }
+//
+//        }
+//
+//
+////        4번답
+//
+//
+//        int j=0;
+//        int k=0;
+//        int l=0;
+//        for(int i=0;i<list.size();i++){
+//
+//        Picture picture=list.get(i);
+//        k=picture.getWidth();
+//
+//        picture.translate(j,0);
+//
+//
+//        if(picture.getHeight()>k){
+//        picture.draw();
+//        j+=k;
+//        l++;
+//        }
+//        }
+//        System.out.println(l);
+//
+//        }
+//        }
+//
+//
+////        5번답
+//
+//
+//        int k=0;
+//
+//        for(int i=0;i<list.size();i++){
+//
+//        Picture picture=list.get(i);
+//        k=picture.getWidth();
+//
+//
+//        if(picture.getHeight()>k){
+//        picture.draw();
+//
+//        break;
+//
+//        }
+//
+//
+////        6번답
+//
+//        ArrayList<Picture>matches=new ArrayList<>();
+//
+//        for(int i=0;i<list.size();i++){
+//
+//        Picture picture=list.get(i);
+//
+//
+//        if(picture.getHeight()>picture.getWidth()){
+//        matches.add(picture);
+//        }
+//        }
+//
+//        }
+//        }
+//
 
-2번답
-
-        int j=0;
-
-        for(int i=0;i<list.size();i++){
-
-        Picture picture=list.get(i);
-        j+=picture.getWidth();
-
-
-        }
-        System.out.println(j);
-
-        }
-        }
-
-        3번답
-
-
-        int j=0;
-        int k=0;
-        for(int i=0;i<list.size();i++){
-
-        Picture picture=list.get(i);
-        k=picture.getWidth();
-
-        picture.translate(j,0);
-
-
-        if(picture.getHeight()>k){
-        picture.draw();
-        j+=k;
-
-        }
-
-        }
-
-
-        4번답
-
-
-        int j=0;
-        int k=0;
-        int l=0;
-        for(int i=0;i<list.size();i++){
-
-        Picture picture=list.get(i);
-        k=picture.getWidth();
-
-        picture.translate(j,0);
-
-
-        if(picture.getHeight()>k){
-        picture.draw();
-        j+=k;
-        l++;
-        }
-        }
-        System.out.println(l);
-
-        }
-        }
-
-
-        5번답
-
-
-        int k=0;
-
-        for(int i=0;i<list.size();i++){
-
-        Picture picture=list.get(i);
-        k=picture.getWidth();
-
-
-        if(picture.getHeight()>k){
-        picture.draw();
-
-        break;
-
-        }
-
-
-        6번답
-
-        ArrayList<Picture>matches=new ArrayList<>();
-
-        for(int i=0;i<list.size();i++){
-
-        Picture picture=list.get(i);
-
-
-        if(picture.getHeight()>picture.getWidth()){
-        matches.add(picture);
-        }
-        }
-
-        }
-        }
 
 
 
